@@ -48,3 +48,11 @@ output/                    # Dossier généré pour les sauvegardes
 Prérequis
 - CMake (version >= 3.10)
 - Google Test (gtest)
+
+## Étapes pour compiler et exécuter
+
+- Pour compiler
+  g++ -o GameOfLife main.cpp GameOfLife.cpp Renderer.cpp Utils.cpp  -lsfml-graphics -lsfml-window -lsfml-system
+
+ - Pour executer
+  ./GameOfLife
