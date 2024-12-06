@@ -51,8 +51,8 @@ Prérequis
 
 ## Étapes pour compiler et exécuter
 
-- Pour compiler
+- Pour compiler :
   g++ -o GameOfLife main.cpp GameOfLife.cpp Renderer.cpp Utils.cpp  -lsfml-graphics -lsfml-window -lsfml-system
 
- - Pour executer
+ - Pour executer :
   ./GameOfLife
