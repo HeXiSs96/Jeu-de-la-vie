@@ -38,3 +38,12 @@ Voici sa structure :
 
 
 output/                    # Dossier généré pour les sauvegardes
+
+##Commandes
+- Flèche haut : Augmente la vitesse de la simulation.
+- Flèche bas : Diminue la vitesse de la simulation.
+- Barre d'espace : Met en pause ou reprend la simulation.
+##Compilation et exécution
+Prérequis
+- CMake (version >= 3.10)
+- Google Test (gtest)
