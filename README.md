@@ -14,7 +14,13 @@ Cette implémentation inclut une interface graphique pour visualiser les itérat
 
 Notre programme se constitue de 12 fichiers qui ensemble, lance parfaitement le Jeu de la vie
 
-Voici sa structure
+## 💡 Pourquoi le projet est utile  
+Le Jeu de la Vie est bien plus qu'un simple jeu. C'est :  
+- Un outil pédagogique pour explorer des concepts mathématiques comme les automates cellulaires.  
+- Une manière intuitive de visualiser comment des règles simples peuvent créer des comportements complexes.  
+- Une plateforme pour expérimenter des concepts en programmation comme les algorithmes, les graphismes, et l'optimisation.  
+
+Voici sa structure :
 
 ├── src/
 │   ├── main.cpp               # Point d'entrée du programme
