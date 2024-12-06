@@ -22,17 +22,17 @@ Le Jeu de la Vie est bien plus qu'un simple jeu. C'est :
 
 Voici sa structure :
 
-├── src/
-│   ├── main.cpp               # Point d'entrée du programme
-│   ├── AliveCell.hpp
-│   ├── AliveCell.cpp
-│   ├── DeadCell.hpp
-│   ├── DeadCell.cpp
-│   ├── Cell.hpp
-│   ├── GameOfLife.hpp
-│   ├── GameOfLife.cpp
-│   ├── Renderer.hpp
-│   ├── Renderer.cpp
-│   ├── Utils.hpp
-│   ├── Utils.cpp
-├── output/                    # Dossier généré pour les sauvegardes
+ src/
+ - main.cpp               # Point d'entrée du programme
+ - AliveCell.hpp
+ - AliveCell.cpp
+ - DeadCell.hpp
+ - DeadCell.cpp
+ - Cell.hpp
+ - GameOfLife.hpp
+ - GameOfLife.cpp
+ - Renderer.hpp
+ - Renderer.cpp
+ - Utils.hpp
+ - Utils.cpp
+ - output/                    # Dossier généré pour les sauvegardes
