@@ -1,24 +1,43 @@
-# Jeu-de-la-vie
-Projet POO
+# Jeu de la Vie
 
-Voici notre implémentation élégante et modulaire du " Jeu de la Vie "
 
-## 🌟 Ce que fait le projet  
-Ce programme simule le célèbre **Jeu de la Vie** inventé par John Conway.  
-Chaque cellule d'une grille peut être vivante ou morte, et évolue à chaque itération selon des règles simples :  
-1. Une cellule vivante avec **2 ou 3 voisins vivants** survit.  
-2. Une cellule morte avec **exactement 3 voisins vivants** naît.  
-3. Dans tous les autres cas, la cellule meurt ou reste morte.  
+Une implémentation du célèbre Jeu de la Vie de John Conway en C++ avec une interface interactive pour ajuster la vitesse de simulation et mettre en pause le jeu.
 
-Cette implémentation inclut une interface graphique pour visualiser les itérations en temps réel, ainsi que des fonctionnalités de personnalisation (taille de la grille, vitesse, mode pause).
+## 🌟 Description  
+Ce projet simule le Jeu de la Vie, un automate cellulaire basé sur une grille 2D où chaque cellule évolue selon des règles simples.
 
-Notre programme se constitue de 12 fichiers qui ensemble, lance parfaitement le Jeu de la vie
+Les fonctionnalités incluent :
 
-## 💡 Pourquoi le projet est utile  
-Le Jeu de la Vie est bien plus qu'un simple jeu. C'est :  
-- Un outil pédagogique pour explorer des concepts mathématiques comme les automates cellulaires.  
-- Une manière intuitive de visualiser comment des règles simples peuvent créer des comportements complexes.  
-- Une plateforme pour expérimenter des concepts en programmation comme les algorithmes, les graphismes, et l'optimisation.  
+- Démarrage automatique de la simulation.
+- Mise en pause et reprise du jeu avec la barre Espace.
+- Ajustement de la vitesse de simulation avec les touches flèche haut et flèche bas.
+- Cette implémentation inclut une interface graphique pour visualiser les itérations en temps réel, ainsi que des fonctionnalités de personnalisation (taille de la grille, vitesse, mode pause).
+
+
+
+## 💡 Fonctionnalités principales  
+Simulation dynamique : basée sur les règles de Conway :
+- Une cellule vivante reste vivante si elle a 2 ou 3 voisines vivantes.
+- Une cellule morte devient vivante si elle a exactement 3 voisines vivantes.
+Contrôle interactif : Pause/lecture et ajustement de la vitesse.
+Tests unitaires : Vérifient les règles du jeu et les mises à jour de la grille.
+
+
+## Prérequis
+Avant de commencer, assurez-vous d'avoir :
+
+- C++ (version C++11 ou supérieure).
+- CMake (pour la gestion du projet).
+- Google Test (pour exécuter les tests unitaires).
+
+## Étapes pour compiler et exécuter
+
+- Pour compiler :
+  g++ -o GameOfLife main.cpp GameOfLife.cpp Renderer.cpp Utils.cpp  -lsfml-graphics -lsfml-window -lsfml-system
+
+ - Pour executer :
+  ./GameOfLife
+
 
 Voici sa structure :
 
@@ -44,15 +63,3 @@ output/                    # Dossier généré pour les sauvegardes
 - Flèche bas : Diminue la vitesse de la simulation.
 - Barre d'espace : Met en pause ou reprend la simulation.
 
-## Compilation et exécution
-Prérequis
-- CMake (version >= 3.10)
-- Google Test (gtest)
-
-## Étapes pour compiler et exécuter
-
-- Pour compiler :
-  g++ -o GameOfLife main.cpp GameOfLife.cpp Renderer.cpp Utils.cpp  -lsfml-graphics -lsfml-window -lsfml-system
-
- - Pour executer :
-  ./GameOfLife
