@@ -1,4 +1,5 @@
 #include "AliveCell.hpp"
+#include "DeadCell.hpp"
 
 void AliveCell::update(int x, int y, const std::vector<std::vector<Cell*>>& grid) {
     int liveNeighbors = 0;
