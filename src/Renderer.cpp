@@ -27,3 +27,4 @@ void Renderer::renderTextInfo(int iteration, int delay, bool paused) {
     text.setPosition(10, gridHeight * cellSize + 10);
     window.draw(text);
 }
+ 
