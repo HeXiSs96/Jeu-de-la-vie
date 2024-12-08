@@ -61,7 +61,7 @@ void GameOfLife::run() {
         }
 
         renderer.renderGrid(grid);  // Affichage de la grille
-        renderer.renderTextInfo(iterationCount, delay, paused);  // Informations dynamiques
+        renderer.renderTextInfo(iterationCount, delay, paused);
 
         window.display();
         std::this_thread::sleep_for(std::chrono::milliseconds(delay));  // Attente
