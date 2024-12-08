@@ -20,8 +20,8 @@ void createEmptyGrid(const std::string& filename, int width, int height) {
 }
 
 int main() {
-    int gridWidth = 10; // Modifiez si nécessaire
-    int gridHeight = 10; // Modifiez si nécessaire
+    int gridWidth = 10; 
+    int gridHeight = 10;
     createEmptyGrid("test_grille_vide.txt", gridWidth, gridHeight);
     return 0;
 }
