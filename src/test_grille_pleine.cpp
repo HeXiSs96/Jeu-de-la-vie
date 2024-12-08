@@ -25,3 +25,4 @@ int main() {
     createFullGrid("test_grille_pleine.txt", gridWidth, gridHeight);
     return 0;
 }
+ 
