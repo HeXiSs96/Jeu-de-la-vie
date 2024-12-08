@@ -55,6 +55,11 @@ Voici sa structure :
  - Utils.hpp
  - Utils.cpp
 
+   Test Unitaires :
+   -test_planeur
+   -test_grille_vide
+   -test_grille_pleine
+
 
 output/                    # Dossier généré pour les sauvegardes
 
