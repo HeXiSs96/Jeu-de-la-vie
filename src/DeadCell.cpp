@@ -27,3 +27,5 @@ void DeadCell::render(int x, int y, sf::RenderWindow& window, int cellSize) {
     cell.setFillColor(sf::Color::Black);
     window.draw(cell);
 }
+
+ 
