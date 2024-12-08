@@ -29,3 +29,4 @@ void AliveCell::render(int x, int y, sf::RenderWindow& window, int cellSize) {
 }
 
 
+ 
