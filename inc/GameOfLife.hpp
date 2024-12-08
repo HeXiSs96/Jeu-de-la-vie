@@ -12,6 +12,9 @@ public:
     void run();  // Méthode principale pour exécuter la simulation
     void updateGrid();  // Met à jour l'état de la grille
 
+    // Accesseur public temporaire pour la grille
+    std::vector<std::vector<int>>& getGrid() { return grid; }
+
 private:
     int gridWidth;
     int gridHeight;
