@@ -1,7 +1,7 @@
 #include "AliveCell.hpp"
 #include "DeadCell.hpp"
 
-void AliveCell::update(int x, int y, const std::vector<std::vector<Cell*>>& grid) {
+void AliveCell::update(int x, int y, std::vector<std::vector<Cell*>>& grid) {
     int liveNeighbors = 0;
     // Compte les voisins vivants
     for (int dy = -1; dy <= 1; ++dy) {
