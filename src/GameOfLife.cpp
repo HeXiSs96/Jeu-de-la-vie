@@ -96,4 +96,4 @@ void GameOfLife::updateGrid() {
     }
 
     grid = newGrid;
-}
+} 
