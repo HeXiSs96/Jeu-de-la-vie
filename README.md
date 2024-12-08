@@ -67,4 +67,4 @@ output/                    # Dossier généré pour les sauvegardes
 - Flèche haut : Augmente la vitesse de la simulation.
 - Flèche bas : Diminue la vitesse de la simulation.
 - Barre d'espace : Met en pause ou reprend la simulation.
-
+ 
