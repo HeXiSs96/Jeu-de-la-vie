@@ -68,3 +68,15 @@ output/                    # Dossier généré pour les sauvegardes
 - Flèche bas : Diminue la vitesse de la simulation.
 - Barre d'espace : Met en pause ou reprend la simulation.
  
+
+## Commandes de compilation du Jeu :
+- Code : g++ -o GameOfLife main.cpp GameOfLife.cpp Renderer.cpp Utils.cpp  -lsfml-graphics -lsfml-window -lsfml-system
+  - Lancement : ./GameOfLife 50 50
+
+## Commandes de compilation des tests unitaire :
+- test_planeur : g++ test_planeur.cpp Renderer.cpp Utils.cpp GameOfLife.cpp -o test_planeur -lsfml-graphics -lsfml-window -lsfml-system
+  - Lancement : ./test_planeur 100 100
+- test_grille_vide : g++ -o test_grille_vide test_grille_vide.cpp -lsfml-graphics -lsfml-window -lsfml-system
+  - Lancement : ./test_grille_vide
+- test_grille_pleine : g++ -o test_grille_pleine test_grille_pleine.cpp -lsfml-graphics -lsfml-window -lsfml-system
+  - Lancement : ./test_grille_pleine
